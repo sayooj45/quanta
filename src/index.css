@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "MyFont1";
+  src: url("./assets/fonts/Font1.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "MyFont2";
+  src: url("./assets/fonts/Font2.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MyFont3";
+  src: url("./assets/fonts/Font3.otf") format("opentype");
+}
