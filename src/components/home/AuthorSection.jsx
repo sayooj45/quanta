@@ -64,8 +64,9 @@ const AuthorSection = () => {
 
           <p>
             He has demonstrated strong transformational leadership by
-            establishing a Project Implementation and Tendering Division,
-            significantly improving performance and profitability.
+            establishing a Project Implementation and Tendering Division in
+            Consolidated Shipping Line India Private Ltd., significantly
+            improving performance and profitability.
           </p>
 
           <p>
