@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <h2 className="text-2xl font-playfair font-semibold">
-              ESG <span className="text-primary">Paradox</span>
+              ESG <span className="text-primary">Quanta</span>
             </h2>
             <p className="text-white/60 mt-3 max-w-sm text-sm leading-relaxed">
               Building sustainable insights and innovative ESG solutions for a

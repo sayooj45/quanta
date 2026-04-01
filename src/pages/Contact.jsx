@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { Mail, Phone } from "lucide-react";
+import Select from "react-select";
+import countryList from "react-select-country-list";
+import { useMemo } from "react";
 
 const Contact = () => {
   const [success, setSuccess] = useState(false);
@@ -9,10 +12,12 @@ const Contact = () => {
     setSuccess(true);
   };
 
+  const options = useMemo(() => countryList().getData(), []);
+
   return (
-    <div className="grid md:grid-cols-2 min-h-screen pt-16 ">
+    <div className="grid md:grid-cols-2 pt-16 ">
       {/* LEFT SIDE */}
-      <div className="bg-[#0A0F14] text-white px-10 py-16 flex flex-col justify-between">
+      <div className="bg-[#0A0F14] text-white px-10 py-10 flex flex-col justify-between">
         <div>
           <h1 className="text-5xl font-playfair leading-tight font-font1">
             Get In <br />
@@ -56,7 +61,7 @@ const Contact = () => {
       </div>
 
       {/* RIGHT SIDE FORM */}
-      <div className="bg-[#F5F5F5] px-10 py-16 flex items-center">
+      <div className="bg-[#F5F5F5] px-10 py-10 flex items-start">
         <form onSubmit={handleSubmit} className="w-full max-w-lg">
           <h2 className="text-4xl font-playfair mb-10 text-[#111]">
             Send a Message
@@ -83,6 +88,37 @@ const Contact = () => {
               type="email"
               placeholder="your@email.com"
               className="w-full mt-2 border border-gray-300 p-4 bg-transparent focus:outline-none focus:border-red-600 transition"
+            />
+          </div>
+          <div className="mb-6">
+            <label className="text-xs tracking-widest text-gray-600 uppercase">
+              Phone Number
+            </label>
+
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Your phone number"
+              className="w-full mt-2 border border-gray-300 p-4 bg-transparent 
+               focus:outline-none focus:border-red-600 transition"
+              maxLength={10}
+              pattern="[0-9]{10}"
+              required
+            />
+          </div>
+
+          <div className="mb-6">
+            <label className="text-xs tracking-widest text-gray-600 uppercase">
+              Country
+            </label>
+
+            <Select
+              options={options}
+              // value={options.find((c) => c.label === formData.country)}
+              // onChange={(val) =>
+              //   setFormData((prev) => ({ ...prev, country: val.label }))
+              // }
+              placeholder="Select Country"
             />
           </div>
 

@@ -45,29 +45,31 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center mt-10 md:mt-0 px-6 md:px-0">
-        <div className="relative w-[320px] sm:w-[380px] md:w-[440px] h-[320px] sm:h-[360px]">
+      <div className="flex justify-center items-center mt-10 md:mt-0 px-4 sm:px-6">
+        <div className="relative w-[260px] sm:w-[320px] md:w-[400px] lg:w-[440px] aspect-[4/5]">
           {/* BACK CARD */}
           <div
-            className="absolute top-5 left-35 rotate-[15deg] z-0 
-      bg-white p-2 rounded-xl shadow-2xl"
-          >
-            <img
-              src={author}
-              alt="author"
-              className="w-[230px] sm:w-[260px] md:w-[280px] h-auto rounded-lg object-cover"
-            />
-          </div>
-
-          {/* FRONT CARD */}
-          <div
-            className="absolute top-0 left-0 rotate-[-10deg] z-10 
+            className="absolute top-4 sm:top-6 right-0 sm:right-4 rotate-[12deg] z-0 
       bg-white p-2 rounded-xl shadow-2xl"
           >
             <img
               src={cover}
               alt="cover"
-              className="w-[230px] sm:w-[260px] md:w-[280px] h-auto rounded-lg object-cover"
+              className="w-[180px] sm:w-[220px] md:w-[260px] lg:w-[280px] 
+                   aspect-[3/4.5] rounded-lg object-cover"
+            />
+          </div>
+
+          {/* FRONT CARD */}
+          <div
+            className="absolute top-0 left-0 rotate-[-8deg] z-10 
+      bg-white p-2 rounded-xl shadow-2xl"
+          >
+            <img
+              src={author}
+              alt="author"
+              className="w-[180px] sm:w-[220px] md:w-[260px] lg:w-[280px] 
+                   aspect-[3/4.5] rounded-lg object-cover"
             />
           </div>
         </div>

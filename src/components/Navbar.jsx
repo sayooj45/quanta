@@ -17,7 +17,9 @@ const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur border-b border-white/10 px-6 h-16 flex items-center justify-between font-font2">
       {/* LOGO */}
       <div className="text-white font-playfair text-lg">
-        ESG <span className="text-primary">Paradox</span>
+        <Link to="/">
+          ESG <span className="text-primary">Quanta</span>
+        </Link>
       </div>
 
       {/* DESKTOP MENU */}
