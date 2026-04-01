@@ -50,7 +50,7 @@ const Hero = () => {
           {/* BACK CARD */}
           <div
             className="absolute top-4 sm:top-6 right-0 sm:right-4 rotate-[12deg] z-0 
-      bg-white p-2 rounded-xl shadow-2xl"
+  bg-white p-2 rounded-xl shadow-2xl animate-float"
           >
             <img
               src={cover}
@@ -63,7 +63,7 @@ const Hero = () => {
           {/* FRONT CARD */}
           <div
             className="absolute top-0 left-0 rotate-[-8deg] z-10 
-      bg-white p-2 rounded-xl shadow-2xl"
+  bg-white p-2 rounded-xl shadow-2xl animate-float"
           >
             <img
               src={author}
