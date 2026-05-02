@@ -53,7 +53,7 @@ const Hero = () => {
   bg-white p-2 rounded-xl shadow-2xl animate-float"
           >
             <img
-              src={cover}
+              src={author}
               alt="cover"
               className="w-[180px] sm:w-[220px] md:w-[260px] lg:w-[280px] 
                    aspect-[3/4.5] rounded-lg object-cover"
@@ -66,7 +66,7 @@ const Hero = () => {
   bg-white p-2 rounded-xl shadow-2xl animate-float"
           >
             <img
-              src={author}
+              src={cover}
               alt="author"
               className="w-[180px] sm:w-[220px] md:w-[260px] lg:w-[280px] 
                    aspect-[3/4.5] rounded-lg object-cover"

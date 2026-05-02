@@ -41,7 +41,7 @@ const Contact = () => {
               <p className="text-xs tracking-widest text-red-600 uppercase">
                 Email
               </p>
-              <p className="text-white/80 text-sm">alexphilip@gmail.com</p>
+              <p className="text-white/80 text-sm">alex.alexphilip@gmail.com</p>
             </div>
           </div>
 

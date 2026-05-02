@@ -1,23 +1,23 @@
 import React from "react";
 
 const Relevance = () => {
-  const pillars = [
-    {
-      letter: "E",
-      title: "Environmental",
-      desc: "Carbon emissions, climate impact, and ecological footprint linked to financial risk.",
-    },
-    {
-      letter: "S",
-      title: "Social",
-      desc: "Employee wellbeing, ethics, and community value mapped to business performance.",
-    },
-    {
-      letter: "G",
-      title: "Governance",
-      desc: "Transparency, accountability, and compliance frameworks for sustainability.",
-    },
-  ];
+  // const pillars = [
+  //   {
+  //     letter: "E",
+  //     title: "Environmental",
+  //     desc: "Carbon emissions, climate impact, and ecological footprint linked to financial risk.",
+  //   },
+  //   {
+  //     letter: "S",
+  //     title: "Social",
+  //     desc: "Employee wellbeing, ethics, and community value mapped to business performance.",
+  //   },
+  //   {
+  //     letter: "G",
+  //     title: "Governance",
+  //     desc: "Transparency, accountability, and compliance frameworks for sustainability.",
+  //   },
+  // ];
 
   const cards = [
     {
@@ -53,7 +53,7 @@ const Relevance = () => {
       </section>
 
       {/* Pillars */}
-      <section className="px-8 md:px-16 py-20">
+      {/* <section className="px-8 md:px-16 py-20">
         <h2 className="font-playfair text-4xl mb-10">
           Environmental · Social · Governance
         </h2>
@@ -69,7 +69,7 @@ const Relevance = () => {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Cards */}
       <section className="bg-dark text-white px-8 md:px-16 py-20">
