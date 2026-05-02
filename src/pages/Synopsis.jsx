@@ -146,15 +146,8 @@ const Synopsis = () => {
                 download
                 className="bg-primary px-5 py-2 rounded-md text-sm uppercase hover:scale-105 transition"
               >
-                Download
+                Download PDF
               </a>
-
-              <Link
-                to="/abstract"
-                className="border border-white/20 px-5 py-2 rounded-md text-sm uppercase hover:bg-white hover:text-black transition"
-              >
-                Read
-              </Link>
             </div>
           </motion.div>
         </div>
