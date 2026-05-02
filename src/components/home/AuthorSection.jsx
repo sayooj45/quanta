@@ -50,29 +50,45 @@ const AuthorSection = () => {
           className="md:w-1/2 text-gray-700 leading-relaxed space-y-4 font-sans text-base"
         >
           <p>
-            Dr. Alex Philip is a seasoned finance professional with over 20
-            years of experience in strategic financial planning, internal
-            control, fund management, auditing, and taxation across diverse
-            industries.
+            Dr. Alex Philip is a seasoned finance professional with over 25
+            years of experience in strategic financial planning, working capital
+            management, auditing, and taxation across diverse industries. His
+            extensive career reflects a strong foundation in financial
+            leadership and business performance management.
           </p>
 
           <p>
-            As Finance Controller at Kuehne Nagel Private Ltd., he has led
-            end-to-end financial operations, ensuring compliance while enhancing
-            efficiency and optimizing costs.
+            In his role as Finance Controller at M/s. Kuehne + Nagel Private
+            Ltd., he has led end-to-end financial operations, ensuring
+            regulatory compliance, improving process efficiency, and delivering
+            sustained cost optimization. His contributions have played a key
+            role in strengthening organizational financial discipline and
+            operational excellence.
           </p>
 
           <p>
-            He has demonstrated strong transformational leadership by
-            establishing a Project Implementation and Tendering Division in
-            Consolidated Shipping Line India Private Ltd., significantly
-            improving performance and profitability.
+            His leadership is marked by the implementation of robust financial
+            controls and forecasting frameworks that enhance budget accuracy and
+            support informed decision-making. Through these initiatives, he has
+            consistently helped organizations improve financial visibility and
+            long-term planning capabilities.
           </p>
 
           <p>
-            A collaborative leader and strategic advisor, he helps organizations
-            embed ESG principles into financial frameworks while aligning
-            strategy with long-term business goals.
+            Dr. Philip is also the holder of multiple copyrights related to ESG
+            ratings, reflecting his strong commitment to advancing best
+            practices in environmental, social, and governance evaluation. His
+            work demonstrates a forward-thinking approach to integrating
+            sustainability into modern finance systems.
+          </p>
+
+          <p>
+            With deep expertise in financial analysis, ESG integration, and
+            sustainable business practices, Dr. Philip brings a strategic and
+            future-focused perspective to finance. As a collaborative leader and
+            trusted advisor, he enables organizations to embed ESG principles
+            into financial frameworks while aligning operational strategies with
+            long-term value creation.
           </p>
         </motion.div>
       </div>

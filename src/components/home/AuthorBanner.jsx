@@ -19,9 +19,11 @@ const AuthorBanner = () => {
       {/* Right */}
       <div className="text-white/90 max-w-2xl text-center md:text-left text-sm md:text-base leading-relaxed font-font2">
         <p>
-          Finance leader with 20+ years of experience in ESG integration and
-          strategic financial planning. Driving sustainable growth by aligning
-          business performance with long-term value.
+          Dr. Alex Philip is a seasoned finance professional with over 25 years
+          of experience in strategic financial planning, auditing, taxation, and
+          ESG integration. He is recognized for driving financial excellence,
+          sustainable business practices, and advancing innovative ESG rating
+          frameworks.
         </p>
       </div>
     </div>
