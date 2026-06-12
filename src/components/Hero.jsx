@@ -1,9 +1,18 @@
 import { useNavigate } from "react-router-dom";
 import cover from "../assets/images/cover.jpg";
 import author from "../assets/images/author.png";
+import ReactGA from "react-ga4";
 
 const Hero = () => {
   const navigate = useNavigate();
+
+  const handleClick = () => {
+    ReactGA.event({
+      category: "Navigation",
+      action: "Link Click",
+      label: "sample",
+    });
+  };
 
   return (
     <section className="bg-gradient-to-tr from-black via-[#050505] via-60% to-[#1f0000] min-h-screen grid md:grid-cols-2 pt-20">
@@ -27,6 +36,13 @@ const Hero = () => {
           performance.
         </p>
 
+        <a
+          href="https://notionpress.com/in/read/esg-quanta"
+          onClick={handleClick}
+        >
+          sample
+        </a>
+
         {/* BUTTONS */}
         <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8 font-font2">
           <button
@@ -37,7 +53,7 @@ const Hero = () => {
           </button>
 
           <button
-            onClick={() => navigate("/contact")}
+            onClick={() => navigate("/consulting")}
             className="border border-white/30 px-6 py-3 hover:bg-primary transition-all duration-500 text-xs sm:text-sm w-full sm:w-auto"
           >
             Get in Touch

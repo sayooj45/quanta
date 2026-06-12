@@ -148,15 +148,22 @@ const Synopsis = () => {
               >
                 Download PDF
               </a>
+
+              {/* <Link
+                to="/abstract"
+                className="border border-white/20 px-5 py-2 rounded-md text-sm uppercase hover:bg-white hover:text-black transition"
+              >
+                Read
+              </Link> */}
             </div>
           </motion.div>
         </div>
       </section>
 
       {/* INTRO */}
-      <section className="px-5 sm:px-8 md:px-14 lg:px-20 py-14 sm:py-20 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <motion.div
+      {/* <section className="px-5 sm:px-8 md:px-14 lg:px-20 py-14 sm:py-20 bg-white">
+        <div className="max-w-7xl mx-auto"> */}
+      {/* <motion.div
             initial="hidden"
             whileInView="show"
             viewport={{ once: true }}
@@ -184,10 +191,10 @@ const Synopsis = () => {
               ESG has transformed into a strategic requirement for corporations,
               investors, and regulators worldwide.
             </motion.p>
-          </motion.div>
+          </motion.div> */}
 
-          {/* CARDS */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
+      {/* CARDS */}
+      {/* <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
             {["Governance Matters", "Economic Impact", "Global Adoption"].map(
               (item, i) => (
                 <motion.div
@@ -208,10 +215,10 @@ const Synopsis = () => {
             )}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* LOGISTICS + ENVIRONMENT */}
-      <section className="px-5 sm:px-8 md:px-14 lg:px-20 py-14 sm:py-20">
+      {/* <section className="px-5 sm:px-8 md:px-14 lg:px-20 py-14 sm:py-20">
         <div className="grid md:grid-cols-2 gap-6 lg:gap-10">
           {[
             {
@@ -258,10 +265,10 @@ const Synopsis = () => {
             </motion.div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* ABSTRACT */}
-      <section className="px-5 sm:px-8 md:px-14 lg:px-20 py-14 sm:py-20 bg-gray-50">
+      {/* <section className="px-5 sm:px-8 md:px-14 lg:px-20 py-14 sm:py-20 bg-gray-50">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -304,7 +311,7 @@ const Synopsis = () => {
             </div>
           </div>
         </motion.div>
-      </section>
+      </section> */}
 
       {/* CHAPTERS */}
       <section className="px-5 sm:px-8 md:px-14 lg:px-20 py-14 sm:py-20">
