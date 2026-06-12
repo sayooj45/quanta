@@ -7,10 +7,8 @@ const Hero = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    ReactGA.event({
-      category: "Navigation",
-      action: "Link Click",
-      label: "sample",
+    ReactGA.event("book_link_click", {
+      link_name: "NotionPress Book",
     });
   };
 
