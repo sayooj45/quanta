@@ -34,15 +34,18 @@ const Hero = () => {
           performance.
         </p>
 
-        <a
-          href="https://notionpress.com/in/read/esg-quanta"
-          onClick={handleClick}
-        >
-          sample
-        </a>
-
         {/* BUTTONS */}
         <div className="flex flex-col sm:flex-row gap-4 mt-6 sm:mt-8 font-font2">
+          <a
+            href="https://notionpress.com/in/read/esg-quanta"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={handleClick}
+            className="bg-primary px-6 py-3 uppercase text-xs sm:text-sm hover:bg-dark transition-all duration-500 border border-white/30 text-center"
+          >
+            Buy The Book
+          </a>
+
           <button
             onClick={() => navigate("/synopsis")}
             className="bg-primary px-6 py-3 uppercase text-xs sm:text-sm hover:bg-dark transition-all duration-500 border border-white/30 w-full sm:w-auto"
